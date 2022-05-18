@@ -5,10 +5,6 @@ calc.title("Calculator")
 e = Entry(calc,width=50,borderwidth=5)
 e.grid(row=0 ,column=0 ,columnspan= 4)
 
-#img_1=ImageTk.PhotoImage(Image.open("space.ico"))
-#img_label=Label(image=img_1)
-#img_label.grid(row=0,column=0,rowspan=10,columnspan=10)
-
 def click(n):
     a=e.get()+n
     e.delete(0,END)
